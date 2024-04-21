@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "src-rs"
+]
+
+[workspace.dependencies]
+anyhow = "1.0.82"
+thiserror = "1.0.58"
+serde = "1.0.197"

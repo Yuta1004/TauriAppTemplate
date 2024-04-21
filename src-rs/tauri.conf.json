@@ -1,0 +1,62 @@
+{
+    "build": {
+        "devPath": "../src-js/dist",
+        "distDir": "../src-js/dist",
+        "withGlobalTauri": false
+    },
+    "package": {
+        "productName": "app",
+        "version": "0.1.0"
+    },
+    "tauri": {
+        "allowlist": {
+            "all": true
+        },
+        "bundle": {
+            "active": true,
+            "category": "DeveloperTool",
+            "copyright": "",
+            "deb": {
+                "depends": []
+            },
+            "icon": [
+                "assets/32x32.png",
+                "assets/128x128.png",
+                "assets/128x128@2x.png",
+                "assets/icon.icns",
+                "assets/icon.ico"
+            ],
+            "identifier": "dev.nakagamiyuta.app",
+            "longDescription": "",
+            "macOS": {
+                "entitlements": null,
+                "exceptionDomain": "",
+                "frameworks": [],
+                "providerShortName": null,
+                "signingIdentity": null
+            },
+            "shortDescription": "",
+            "targets": "all",
+            "windows": {
+                "certificateThumbprint": null,
+                "digestAlgorithm": "sha256",
+                "timestampUrl": ""
+            }
+        },
+        "security": {
+            "csp": null
+        },
+        "updater": {
+            "active": false
+        },
+        "windows": [
+            {
+                "fullscreen": false,
+                "width": 1680,
+                "height": 950,
+                "resizable": true,
+                "title": "App"
+            }
+        ]
+    }
+}

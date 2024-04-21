@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+.workspace {
+    width: 100%;
+    min-height: calc(100vh - 64px)
+}
+
+.gutter {
+    background: #eee;
+}
+
+.split-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.react-terminal-wrapper {
+    height: 100%;
+    padding: 16px !important;
+}
+
+.react-terminal-window-buttons {
+    visibility: hidden;
+}
